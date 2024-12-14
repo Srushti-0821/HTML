@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lavender;">
+    <h1>Registration Form</h1>
+
+        <form>
+            <table border="0" style="border-color: black;">
+                <tr>
+                    <td>
+                        <br>
+                        <b>Enter Your First Name</b>
+                        <input type="text" pattern="[A-Z,a=z{1,}]" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Enter Your Last Name</b>
+                        <input type="text" pattern="[A-Z,a=z{1,}]" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                       <b> Enter Your Password</b>
+                        <input type="password"  pattern="[@,#,$,%,&{@,}]" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>ReEnter Your Password</b>
+                        <input type="password"  pattern="[@,#,$,%,&{@,}]" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                       <b> <label for="">Enter Your Email</label></b>
+                        <input type="email" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Enter Your Mobile Number</b>
+                        <input type="text" pattern="[0-9{10}]" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Enter Your Address</b>
+                       <textarea name="" id=""></textarea>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Select Your Gender</b>
+                       <input type="radio" name="srushti">Male
+                       <input type="radio" name="srushti">Female
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Select Your Hobbies</b>
+                        <input type="checkbox">DANCING
+                        <input type="checkbox">SINGING
+                        <input type="checkbox">LISTING
+                        <input type="checkbox">MOVIE
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                      <b>Select Birth Date</b>
+                        <input type="date"  min="2000-01-01" max="2000-01-31" required>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Select Your Country</b>
+                        <select name="" id="">
+                            <option value="">India</option>
+                            <option value="">USA</option>
+                            <option value="">UK</option>
+                            <option value="">Pakistan</option>
+                            <option value="">Dubai</option>
+                            <option value="">South Africa</option>
+                        </select>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <b>Upload Your Pic</b>
+                        <input type="file">
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <br>
+                        <input type="submit">
+                        <input type="reset">
+                    </td>
+                </tr>
+    
+                <tr>
+                   
+                </tr>
+            </table>
+        </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1. Use Input type “text, email, password, checkbox, radio, file, submit, reset” and Select, Option, and Button Tag.
+
+    2. Include 1 heading tag for the title. -->
+    <form action="">
+        <table border="2">
+            <h1>REGISTRATION FORM</h1>
+            <tr>
+                <td>
+                    FIRST NAME: <input type="text" pattern="[A-Z,a-z(1,)]" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    LAST NAME: <input type="text" pattern="[A-Z,a-z(1,)]" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    EMAIL: <input type="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PHONE NUMBER: <input type="number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    PASSWORD: <input type="password" pattern="[@,#,$,%,&]" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    GENDER: <input type="radio" name="gender">MALE
+                            <input type="radio" name="gender">FEMALE
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    HOBBIES: <input type="checkbox">DANCING
+                            <input type="checkbox">SINGING
+                            <input type="checkbox">WRITING
+                            <input type="checkbox">READING
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    UPLOAD PHOTO: <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    QUALIFICATION:
+                    <select name="" id="">
+                        <option value=""></option>
+                        <option value="">BCA</option>
+                        <option value="">MCA</option>
+                        <option value="">BBA</option>
+                        <option value="">MBA</option>
+                        <option value="">M.TECH</option>
+                        <option value="">B.TECH</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Submit</button>
+                    <input type="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
